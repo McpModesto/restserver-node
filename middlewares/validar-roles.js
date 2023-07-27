@@ -18,7 +18,6 @@ const esAdminRole = async(req, res = response, next) => {
             });
         }
 
-        req.usuario = usuario;
         next();
 
     } catch (error) {
